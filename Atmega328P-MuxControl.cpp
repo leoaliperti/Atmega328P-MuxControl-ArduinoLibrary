@@ -6,7 +6,7 @@
 */
 
 #include "Arduino.h"
-#include "MuxControl.h"
+#include "Atmega328P-MuxControl.h"
 
 Mux::Mux(uint32_t delayTime) {
   _delayTime = delayTime;
